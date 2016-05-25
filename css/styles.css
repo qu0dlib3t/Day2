@@ -39,3 +39,31 @@ footer {
   height: 100px;
   color: white;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width : 768px) {
+  .container-fluid {
+    background-color: black;
+  }
+  .header, .nav, .content, .aside {
+    background-color: brown;
+    color: pink;
+  }
+  .promo {
+    background-color: green;
+    color: brown;
+  }
+}
+@media screen and (max-width : 375px) {
+  .container-fluid {
+    background-color: white;
+  }
+  .header, .nav, .content, .aside {
+    background-color: green;
+    color: yellow;
+  }
+  .promo {
+    background-color: black;
+    color: black;
+  }
+}
